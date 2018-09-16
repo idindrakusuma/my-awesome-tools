@@ -9,6 +9,7 @@ Repositori ini dibuat untuk mendokumentasikan berbagai tools yang saya gunakakan
 2. [Plugins](#plugins)
     - [Live Server](#live-server)
     - [Material Icon Theme](#material-icon-theme)
+    - [Material Color Theme](#material-color-theme)
     - [Gitlens](#gitlens)
     - [Code Snippets](#code-snippets)
     - [Language Support](#language-support)
@@ -20,10 +21,15 @@ Repositori ini dibuat untuk mendokumentasikan berbagai tools yang saya gunakakan
 ## Text Editor
 
 Untuk text editor, saya menggunakan **Visual Studio Code** atau **vscode**. Berikut beberapa alasan mengapa menggunakan visual studio code.
+
 - Gratis dan open source!
 - Tersedia banyak _plugins_ yang selalu diupdate.
 - Tersedia banyak _theme_ dan sangat ringan!
-Download disini: https://code.visualstudio.com/
+
+Download disini: https://code.visualstudio.com/ 
+Link Github: https://github.com/Microsoft/vscode
+
+![Microsoft Visual Studio Code](https://cloud.githubusercontent.com/assets/11839736/16642200/6624dde0-43bd-11e6-8595-c81885ba0dc2.png)
 
 ## Plugins
 
@@ -50,6 +56,17 @@ ext install PKief.material-icon-theme
 ```
 
 ![Material Icon Theme](https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/master/images/fileIcons.png)
+
+### Material Color Theme
+
+Kalau yang sebelumnya ubah icon biar lebih menarik, nah ini bikin editor kamu lebih menarik dan nyaman ketika proses coding. Ada beberapa tema yang bisa dipilih dimulai dari yang dark sampai ligh. Rekomended banget deh.
+
+Install plugins:
+```
+ext install Equinusocio.vsc-material-theme
+```
+
+![Material Icon Theme](https://i.imgur.com/qvxc7OA.jpg)
 
 ### GitLens
 
