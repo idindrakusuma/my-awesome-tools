@@ -2,7 +2,10 @@
 
 <center> <img src="./img/awesome.svg" alt="awesome-list" style="max-height: 200px"> </center>
 
-This repository is made to document various tools that I use to support productivity in writing code.
+Repositori ini dibuat untuk mendokumentasikan berbagai tools yang saya gunakakan untuk menunjang produktifitas dalam menulis code.
+
+## Another Language
+- [English](./lang/README-EN.md)
 
 ## Table of Contents
 1. [Text Editor](#text-editor)
@@ -20,24 +23,24 @@ This repository is made to document various tools that I use to support producti
 
 ## Text Editor
 
-For text editors, I use **Visual Studio Code** or **vscode**. Here are some reasons why using visual studio code.
+Untuk text editor, saya menggunakan **Visual Studio Code** atau **vscode**. Berikut beberapa alasan mengapa menggunakan visual studio code.
 
-- Free and open source!
-- There are many _plugins_ that are always updated.
-- There are many _themes_ and are very light!
+- Gratis dan open source!
+- Tersedia banyak _plugins_ yang selalu diupdate.
+- Tersedia banyak _theme_ dan sangat ringan!
 
-Download here: https://code.visualstudio.com/ 
-Github link: https://github.com/Microsoft/vscode
+Download disini: https://code.visualstudio.com/ 
+Link Github: https://github.com/Microsoft/vscode
 
 ![Microsoft Visual Studio Code](https://cloud.githubusercontent.com/assets/11839736/16642200/6624dde0-43bd-11e6-8595-c81885ba0dc2.png)
 
 ## Plugins
 
-I myself focus on web-based programming. Here are some cool plugins that I usually use.
+Saya sendiri berfokus pada pemrograman berbasis web. Berikut beberapa _plugins_ keren yang biasa saya gunakan.
 
 ### Live Server
 
-Ever made static templates only html and css? usually so that the road can be placed in the `htdocs` apache folder right? Now this **Live Server** plugins are used to run the html and css files through the project folder by creating a new local server. By default it will make the server on `localhost:5050`.
+Pernah bikin static template hanya html dan css saja? biasanya agar bisa jalan ditaruh di folder `htdocs` apache kan? Nah plugins **Live Server** ini digunanakan untuk menajalankan file html dan css tadi melalui folder project dengan membuat server local baru. Secara default akan membuat server di `localhost:5050`.
 
 Install plugins:
 ```
@@ -48,7 +51,7 @@ ext install ritwickdey.LiveServer
 
 ### Material Icon Theme
 
-Bored with the icon of the vscode project folder? try **Material Icon Theme** so that your file icon and folder become more colorful and nice!
+Bosen dengan icon dari folder project vscode? cobain deh **Material Icon Theme** agar icon file serta foldermu menjadi lebih berwarna dan bagus!
 
 Install plugins:
 ```
@@ -59,7 +62,7 @@ ext install PKief.material-icon-theme
 
 ### Material Color Theme
 
-If the previous one changes the icon to make it more interesting, now this makes your editor more interesting and comfortable during the coding process. There are several themes that can be selected starting from the dark to the high. I really recommend it.
+Kalau yang sebelumnya ubah icon biar lebih menarik, nah ini bikin editor kamu lebih menarik dan nyaman ketika proses coding. Ada beberapa tema yang bisa dipilih dimulai dari yang dark sampai ligh. Rekomended banget deh.
 
 Install plugins:
 ```
@@ -70,7 +73,7 @@ ext install Equinusocio.vsc-material-theme
 
 ### GitLens
 
-The role of git in the development process software is like rice with side dishes! it's really important to be more enjoyable: D Now if you use this GitLens plugins, the project versioning process becomes even easier and much more productive. My favorite feature is, the popup feature about information about _who is committed? Which logs? When?_
+Peran git dalam proses development software udah kayak nasi dengan lauk! penting banget agar lebih nikmat :D Nah jika pakai plugins GitLens ini, proses versioning project jadi lebih mudah lagi dan jauh lebih produktif lagi. Fiitur favorit saya adalah, fitur popup mengenai informasi seputar _siapa yang commit? logsnya yang mana? kapan?_
 
 Install plugins:
 ```
@@ -81,21 +84,21 @@ ext install eamodio.gitlens
 
 ### Code Snippets
 
-In this modern and fast-paced era, various snippets for certain programming languages ​​are needed so that the coding process becomes faster and more efficient. So it's perfect for you to install code snippets in the text editor. Here are some of the snippets that I use.
+Di era modern dan serba cepat ini diperlukan berbagai tools snippets untuk bahasa pemrograman tertentu agar proses coding menjadi lebih cepat dan effisien. Jadi cocok banget kamu untuk install code snippets di text editor. Berikut beberapa code spippets yang saya gunakan.
 
--  ES7 React/Redux/GraphQL/React-Native => for user react => `ext install dsznajder.es7-react-js-snippets`
-- Vetur => for VueJS users => `ext install octref.vetur`
-- Javascript (ES6) Code Snippets => for JS users => `ext install xabikos.JavaScriptSnippets`
+-  ES7 React/Redux/GraphQL/React-Native => untuk pengguna react => `ext install dsznajder.es7-react-js-snippets`
+- Vetur => untuk pengguna VueJS => `ext install octref.vetur`
+- Javascript (ES6) Code Snippets => untuk pengguna JS => `ext install xabikos.JavaScriptSnippets`
 
-And so on, you can find yourself in the market place according to the programming language used.
+Dan lain sebagainya, kamu bisa cari sendiri di market place sesuai dengan bahasa pemrograman yang digunakan.
 
 ### Language Support
 
-Language Support is almost similar to Code Snippets, usually one package. So some recent languages such as `stylus`, `go`, `solidityit` is not supported by default, it is necessary in order to install itself as well as syntax highlighting snippet can appear in a text editor.
+Language Support ini hampir mirip dengan Code Snippets, biasanya satu paket. Jadi beberapa bahasa yang baru-baru seperti `stylus`, `go`, `solidity` itu tidak disupport secara default, maka perlu di install sendiri agar snippet serta syntax highlighting bisa muncul di text editor.
 
 ### Keybindings
 
-If I used to use PHPStrorm and WebStorm and get used to the shortcuts on the product jet brains. Now, instead of learning more about the shortcuts in vscode, I just install the keybindings. So vscode feels like PHPStorm or WebStorm: D
+Kalau saya dulunya pakai PHPStrorm serta WebStorm dan terbiasa dengan shortcut - shortcut yang ada di product jetbrains tersebut. Nah dari pada saya belajar lagi mengenai shortcuts yang ada di vscode, mending saya install saja keybindings nya. Jadi vscode serasa PHPStorm atau WebStorm :D
 
 Install plugins: 
 ```
@@ -104,32 +107,32 @@ ext install k--kato.intellij-idea-keybindings
 
 ## Font
 
-For me, the selection of fonts in the code is very important, especially those who can support various things such as arrows and special characters. So that the fonts are cool, I recommend using Fira Code. 
+Bagi saya, pemilihan font dalam code sangat penting, apalagi yang bisa support berbagai hal seperti tanda panah dan karakter - karakter khusus. Nah agar font menjadi keren, saya rekomendasikan pakai Fira Code. 
 
 ![Fira Code](https://camo.githubusercontent.com/3a8948f34284f378ead7af5846aa432035c687ad/687474703a2f2f732e746f6e736b792e6d652f696d67732f666972615f636f64655f6c6f676f2e737667)
 
-How to install it can be seen at https://github.com/tonsky/FiraCode
+Cara installnya bisa dilihat di https://github.com/tonsky/FiraCode
 
 ## Browser
 
-I recommend using Google Chrome or Mozilla Firefox Developer Edition. Because both browsers have Dev Tools that are very complete. Good debugging and so on.
+Saya merekomendasikan untuk menggunakan Google Chrome atau Mozilla Firefox Developer Edition. Karena kedua browser tersebut memiliki Dev Tools yang sangat lengkap. Baik debugging dan lain sebagainya.
 
 - Google Chrome => https://www.google.com/chrome/
 - Firefox Quantum Developer Edition => https://www.mozilla.org/en-US/firefox/developer/
 
 ## Browser Extension
 
-For browser extensions, I use some cool tools including:
+Untuk browser extension, saya menggunakan beberapa tools keren antara lain:
 
-1. Wappalyzer => for what stack analysis is used by the opened website. => https://www.wappalyzer.com/
-2. JSON Viewer => to view formatted JSON data through a browser => https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
-3. React Developer Tools => to see the state of the process when developing the web with the React framework =>   https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
-4. Redux Devtools => to see the managent state during the developent process using redux =>   https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
-5. Vue Devtools => vue programmer must have! => https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
-6. Google Translate => can translate directly when selecting text in the browser (don't have to open translate.google.com)  https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb
-7. Google Calendar => Check schedules, events and so on directly from extension =>  https://chrome.google.com/webstore/detail/google-calendar/gmbgaklkmjakoegficnlkhebmhkjfich
-8. Adblock Plus => Block ads is not clear! => https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb
-9. MetaMask => makes it easy to inject web3 for development Ethereum Network =>  https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn
+1. Wappalyzer => untuk analisis stack apa yang digunakan oleh website yang dibuka. => https://www.wappalyzer.com/
+2. JSON Viewer => untuk melihat data JSON yang diformat melalui browser => https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
+3. React Developer Tools => untuk melihat state proses saat development web dengan framework React => https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+4. Redux Devtools => untuk lihat state managent saat proses developent menggunakan redux => https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
+5. Vue Devtools => vue programmer harus punya! => https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
+6. Google Translate => bisa translate langsung ketika select text di browser (gak harus buka translate.google.com) => https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb
+7. Google Calender => Cek jadwal, event dan lain sebagainya langsung dari ekstension => https://chrome.google.com/webstore/detail/google-calendar/gmbgaklkmjakoegficnlkhebmhkjfich
+8. Adblock Plus => Blokir iklan gak jelas! => https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb
+9. MetaMask => mempermudah inject web3 untuk development Ethereum Network => https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn
 
 ## Website Documentation
 
