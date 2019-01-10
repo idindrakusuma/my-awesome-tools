@@ -20,6 +20,7 @@ Repositori ini dibuat untuk mendokumentasikan berbagai tools yang saya gunakakan
 4. [Browser](#browser)
 5. [Browser Extension](#browser-extension)
 6. [Website Documentation](#web-documentation)
+7. [Framework](#framework)
 
 ## Text Editor
 
@@ -140,4 +141,22 @@ Untuk browser extension, saya menggunakan beberapa tools keren antara lain:
 - Mozilla Developer Network => https://developer.mozilla.org/en-US/
 - W3Schools => https://www.w3schools.com/
 - Freecodecamp => http://freecodecamp.org
-- berbagai official web documentation 
+- berbagai official web documentation
+
+## Framework
+
+Sayaa rasa penting untuk menuliskan beberapa framework yang saya pakai dalam development web saat ini. Dan berikut daftar framework yang saat pakai saat ini.
+
+### ReactJS
+
+Pasti kalian tidak asing dengan framework [ReactJS](https://reactjs.org). Framework open source bikinan tim Facebook ini sukses menjadi framework pilihan utama para web developer didunia begitu juga di tempat kerja saya saat ini, Tokopedia. Tokopedia menjadikan ReactJs sebagai framework utama dalam mengembangkan web platform tokopedia.
+
+## VueJS
+
+Konfigurasi dan *learning curve* yang rendah menjadikan framework [VueJS](https://vuejs.org/) populer dalam waktu yang singkat. Sampai saat ini saya masih menggunakan vueJS dalam mengembangkan beberapa project web. jadi framework ini sangat cocok bagi kalian yang baru menggunakan framework JavaScript.
+
+## Enzyme
+
+Salah satu tools bikinan AirBnB untuk unit testing react, [Enzyme](https://airbnb.io/enzyme/) menjadi pilihan saya. Mudah dalam hal setup dan gampang dalam bikin test menjadikan enzyme favorit saya.
+
+sample projectnya di : https://github.com/idindrakusuma/react-unit-test-with-jest-and-enzyme/tree/master/src
